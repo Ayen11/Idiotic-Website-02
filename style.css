@@ -1,0 +1,68 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Aldo The Apache";
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("Idiotic_06_02_2022_19_28_31-brightness.png");
+  
+    /* Add the blur effect and or not*/
+    filter: blur(8px) brightness(50%);
+    -webkit-filter: blur(8px);
+    
+  
+    /* Full height */
+    height: 100%;
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.726); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    size: xx-large;
+  }
+
+
+  .title {
+    size: 5px;
+  }
+
+
+  .links {
+    
+      color: rgb(136, 231, 255);
+      padding: 5px;
+      font-size: large;
+  }
+
+  @font-face {
+    font-family: "Aldo The Apache";
+    src: url('AldotheApache.ttf');
+  }
